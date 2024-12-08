@@ -1,5 +1,4 @@
-FROM eclipse-temurin:21-jdk-focal
- 
+FROM eclipse-temurin:21
 WORKDIR /app
  
 COPY .mvn/ .mvn
